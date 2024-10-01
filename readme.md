@@ -2,4 +2,4 @@
 
 -- Projeto criado para prática de html css
 
-Objetivo: Feito concluír os da desafios do site frontendmentor.io
+Objetivo: Feito concluír os desafios do site frontendmentor.io
