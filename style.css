@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+:root{
+    --primary-color: #d5e1ef;
+    --secundary-color: #3685fe;
+    --color-card: #fff;
+    --title-color: #1F314F;
+    --sub-color: #68778D;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+
+.card{
+    width: 320px;
+    height: 499px;
+    background-color: var(--color-card);
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+
+.container-qrcode img {
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.card  h3 {
+    font-weight: 700;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.card span {
+    font-weight: 400;
+    color: var(--sub-color);
+    text-align: center;
+    font-size: 18px;
+}
